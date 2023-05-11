@@ -1,0 +1,41 @@
+.tab {
+    display:flex;
+    overflow: hidden;
+    
+    background-color: #30394600;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5vh;
+    width:30vh;
+    border-radius: 20px;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: #303946b4;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: rgb(45, 42, 75);
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button:focus{
+      background-color: rgb(60, 92, 107);
+  }

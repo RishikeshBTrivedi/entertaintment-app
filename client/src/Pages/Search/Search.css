@@ -1,0 +1,84 @@
+.searchInput{
+    background-color: #2f39419a;
+    border: none;
+    border-bottom: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: block;
+    color:white;
+    margin-top: 5vh;
+    width:50vh;
+    padding:10px;
+    font-weight: bold;
+}
+.submitBtn{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    background-color:rgb(56, 117, 141);
+    margin-top: 2vh;
+    width:10vh;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    padding:5px;
+    transition: all 0.2s;
+    
+}
+.submitBtn:hover{
+    background-color: #0044ff;
+
+}
+.searchInput:focus{
+    outline-width: 0;
+
+}
+.tab {
+    display:flex;
+    overflow: hidden;
+    
+    background-color: #30394600;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5vh;
+    width:30vh;
+    border-radius: 20px;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: #303946b4;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: rgb(45, 42, 75);
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button:focus{
+      background-color: rgb(60, 92, 107);
+  }
+@media (max-width:1000px) {
+    .searchInput{
+        width:40vh
+    }
+}

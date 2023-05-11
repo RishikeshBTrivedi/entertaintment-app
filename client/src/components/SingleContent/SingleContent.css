@@ -1,0 +1,64 @@
+.media {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #282c34;
+    border-radius: 10px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .media:hover {
+    background-color: rgb(6, 143, 255);
+    color: white;
+  }
+  
+  @media (max-width: 550px) {
+    .media {
+      width: 46%;
+    }
+  }
+  .good{
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px;
+    background-color: rgb(26, 71, 219);
+    border: 3px solid white;
+  }
+  .bad{
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(235, 35, 35);
+    border: 3px solid white;
+  }
+  .poster {
+    border-radius: 10px;
+  }
+  
+  .title {
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    padding: 8px 0;
+  }
+  
+  .subTitle {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+    padding: 0 2px;
+    padding-bottom: 3px;
+  }

@@ -1,0 +1,68 @@
+.App{
+  min-height: 100vh;
+  background-color:#0F171E;
+  color:white;
+  
+  padding-top: 130px;
+  
+  
+}
+*{
+  scroll-behavior: smooth;
+}
+.navbar {
+  background-color: #19232E;
+  display:flex;
+  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* display: flex; */
+  box-shadow: 5px black;
+  color:white;
+  z-index: 100;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 30vh;
+  padding-right: 30vh;
+
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display:flex;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width:auto;
+  
+}
+.pageTitle{
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vw;
+  padding: 4px;
+  border-radius: 50px;
+  color: white;
+}
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: rgba(48, 50, 66, 0.541);
+  color: rgb(255, 255, 255);
+  
+}
+
+/* Add a color to the active/current link */
+
+@media (max-width:1000px) {
+    .app{
+      padding-top: 70px;
+    }
+    .pageTitle{
+      font-size: 20px;
+    }
+}
